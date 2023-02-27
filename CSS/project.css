@@ -1,0 +1,41 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navSection, #introSection, #psSection, #iteSection, #prototypeSection {
+    margin-bottom: 60px;
+}
+
+#heroSection {
+    color: #ffffff;
+    background:linear-gradient(0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url("/images/project-hero-spca.jpg");
+    background-size:cover;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+#psSection .jumbotron {
+    border: 3px solid #f29c12;
+    border-radius: 15px;
+    padding: 30px 20px;
+    background-color: #fafafa;
+
+}
+
+#cat {
+    height: 400px;
+}
+
+
+/* Carousel style */
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
+.carousel .carousel-indicators li {
+    background-color: rgb(163, 163, 163);
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: rgb(40, 40, 40);
+}
