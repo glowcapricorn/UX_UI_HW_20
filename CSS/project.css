@@ -8,7 +8,7 @@ html {
 
 #heroSection {
     color: #ffffff;
-    background:linear-gradient(0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url("/images/project-hero-spca.jpg");
+    background:linear-gradient(0deg, rgba(40, 40, 40, 0.5), rgba(40, 40, 40, 0.5)), url("../images/project-hero-spca.jpg");
     background-size:cover;
     padding-left: 12%;
     padding-right: 12%;
